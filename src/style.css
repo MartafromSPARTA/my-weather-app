@@ -1,0 +1,143 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    background-color: #333d4b;
+    background-position: 0, 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+  }
+  
+  .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 0 0 70px;
+    width: 800px;
+    border-radius: 30px;
+    padding: 20px;
+  }
+  
+  .first-card {
+    background-color: #4158d0;
+    background-image: linear-gradient(
+      43deg,
+      #4158d0 0%,
+      #c850c0 46%,
+      #ffcc70 100%
+    );
+    border-radius: 30px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .first-card h1 {
+    padding-left: 80px;
+  }
+  
+  .first-card h2 {
+    color: #333d4b;
+  }
+  .first-card h3 {
+    font-size: 50px;
+    padding-left: 80px;
+    color: white;
+  }
+  
+  .current-day {
+    font-family: "Quicksand", sans-serif;
+    margin-top: 10px;
+    width: auto;
+    padding: 30px;
+  }
+  
+  .current-day h1,
+  i {
+    font-size: 100px;
+    color: #ffcc70;
+  }
+  .units {
+    font-size: 50px;
+    color: white;
+  }
+  .blue p {
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .next-week {
+    border: 3px solid;
+    margin-top: 10px;
+    font-family: "Quicksand", sans-serif;
+    box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+  
+  .tomorrow-0 {
+    border: 3px solid;
+    color: #222831;
+    justify-content: center;
+    padding-left: 25px;
+    background-color: white;
+    box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+  }
+  .tomorrow-1 {
+    justify-content: center;
+    padding-left: 25px;
+    color: white;
+    background-color: #222831;
+    box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+  }
+  
+  .tomorrow-2 {
+    justify-content: center;
+    padding-left: 25px;
+    color: white;
+    background-color: #222831;
+    box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+  }
+  
+  .tomorrow-3 {
+    justify-content: center;
+    padding-left: 35px;
+    color: white;
+    background-color: #222831;
+    box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+  }
+  
+  .location {
+    border-radius: 30px;
+    margin-left: 75px;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    background-color: #4158d0;
+    background-image: linear-gradient(
+      43deg,
+      #4158d0 0%,
+      #c850c0 46%,
+      #ffcc70 100%
+    );
+    max-width: 300px;
+    opacity: 0.9;
+  }
+  
+  .backgroundCardtwo {
+    opacity: 0.1;
+    width: 300px;
+    padding-right: 150px;
+    border-radius: 30px;
+  }
+  
+  .second-card {
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+    max-width: 800px;
+    max-height: fit-content;
+    padding: 25px 35px;
+    background-color: #222831;
+    max-width: 550px;
+  }
+  
